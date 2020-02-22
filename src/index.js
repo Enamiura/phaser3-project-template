@@ -9,6 +9,10 @@ class Game extends Phaser.Game{
     this.scene.start('Game');
   }
 }
+
+let game;
 window.onload=function(){
-  let game=new Game(config);
+  game==new Game(config);
 }
+
+
